@@ -1,0 +1,49 @@
+{
+  "name": "react-demo",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "serve": "cross-env TS_NODE_PROJECT=\"tsconfig.webpack.json\" webpack-serve --require ts-node/register --config webpack.dev.ts"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.51",
+    "@babel/plugin-transform-react-jsx": "^7.0.0-beta.51",
+    "@babel/plugin-transform-react-jsx-self": "^7.0.0-beta.51",
+    "@babel/plugin-transform-react-jsx-source": "^7.0.0-beta.51",
+    "@types/node": "^10.3.5",
+    "@types/react": "^16.4.1",
+    "@types/react-dom": "^16.0.6",
+    "@types/webpack": "^4.4.2",
+    "@types/webpack-env": "^1.13.6",
+    "@types/webpack-merge": "^4.1.3",
+    "babel-loader": "^8.0.0-beta.4",
+    "cross-env": "^5.2.0",
+    "css-loader": "^0.28.11",
+    "error-overlay-webpack-plugin": "^0.1.5",
+    "file-loader": "^1.1.11",
+    "fork-ts-checker-webpack-plugin": "^0.4.2",
+    "hard-source-webpack-plugin": "^0.9.0",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "thread-loader": "^1.1.5",
+    "ts-loader": "^4.4.1",
+    "ts-node": "^7.0.0",
+    "tsconfig-paths": "^3.4.0",
+    "typescript": "^2.9.2",
+    "webpack": "^4.12.1",
+    "webpack-command": "^0.2.1",
+    "webpack-merge": "^4.1.3",
+    "webpack-serve": "^1.0.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "lodash-es": "^4.17.10",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "rxjs": "^6.2.1"
+  }
+}

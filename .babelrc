@@ -1,0 +1,11 @@
+{
+  "plugins": [
+    "@babel/plugin-transform-react-jsx-self",
+    "@babel/plugin-transform-react-jsx-source",
+//     "react-hot-loader/babel",
+    "@babel/syntax-jsx",
+    ["@babel/plugin-transform-react-jsx", {
+      "useBuiltins": true
+    }]
+  ]
+}

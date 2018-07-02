@@ -1,0 +1,838 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="552d4edb-7e3b-46e6-8f63-9915a62ee699" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.dev.ts" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.dev.ts" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-2132325286">
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="json" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JSON" value="1" />
+          <entry key="tsconfig" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="json" value="25" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JSON" value="25" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="962584022">
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="gitignore" value="18" />
+          <entry key="json" value="113" />
+          <entry key="md" value="49" />
+          <entry key="scss" value="21" />
+          <entry key="ts" value="150" />
+          <entry key="tsx" value="64" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Git file" value="18" />
+          <entry key="JSON" value="102" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="SCSS" value="21" />
+          <entry key="TypeScript" value="150" />
+          <entry key="TypeScript JSX" value="64" />
+          <entry key="UNKNOWN" value="48" />
+          <entry key="tsconfig" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="babelrc" value="1" />
+          <entry key="gitignore" value="1" />
+          <entry key="html" value="1" />
+          <entry key="json" value="7" />
+          <entry key="md" value="1" />
+          <entry key="scss" value="4" />
+          <entry key="ts" value="16" />
+          <entry key="tsx" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Git file" value="1" />
+          <entry key="HTML" value="1" />
+          <entry key="JSON" value="6" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="SCSS" value="4" />
+          <entry key="TypeScript" value="16" />
+          <entry key="TypeScript JSX" value="6" />
+          <entry key="tsconfig" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webpack.dev.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/utils/decorators/tracked.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/utils/deferred.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/utils/reactUtils.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/main-page/main-page.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/util.d.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/utils/decorators/bind.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>startingScope</find>
+      <find>setvariable</find>
+      <find>createsubscope</find>
+      <find>constructorMap</find>
+      <find>Character</find>
+      <find>`</find>
+      <find>global</find>
+      <find>variableNamed</find>
+      <find>leavelink</find>
+      <find>'rando</find>
+      <find>turnResults</find>
+      <find>acorn.</find>
+      <find>react</find>
+      <find>mode</find>
+      <find>develo</find>
+      <find>../tracked</find>
+      <find>Start</find>
+      <find>passageName</find>
+      <find>resethist</find>
+      <find>creates</find>
+      <find>Not</find>
+      <find>moment-title-</find>
+      <find>$</find>
+      <find>gray-</find>
+      <find>Type&lt;</find>
+      <find>currentpassage</find>
+      <find>getProxy</find>
+      <find>https://npm.epicentric.co</find>
+      <find>!;</find>
+      <find>!</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>https://registry.yarnpkg.com</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/style/index.scss" />
+        <option value="$PROJECT_DIR$/src/typeHandlers/passage-handler.ts" />
+        <option value="$PROJECT_DIR$/src/library/components/LinkBase.tsx" />
+        <option value="$PROJECT_DIR$/src/passages/start.tsx" />
+        <option value="$PROJECT_DIR$/src/library/Moment.ts" />
+        <option value="$PROJECT_DIR$/src/library/components/current-room.tsx" />
+        <option value="$PROJECT_DIR$/src/library/services/room-store.ts" />
+        <option value="$PROJECT_DIR$/src/library/room.tsx" />
+        <option value="$PROJECT_DIR$/src/things/door.tsx" />
+        <option value="$PROJECT_DIR$/src/things/thing.tsx" />
+        <option value="$PROJECT_DIR$/src/rooms/start.tsx" />
+        <option value="$PROJECT_DIR$/src/library/services/History.ts" />
+        <option value="$PROJECT_DIR$/src/library/components/ExpressionComponent.tsx" />
+        <option value="$PROJECT_DIR$/src/components/combat-character-status.tsx" />
+        <option value="$PROJECT_DIR$/src/library/components/Link.tsx" />
+        <option value="$PROJECT_DIR$/src/services/game.ts" />
+        <option value="$PROJECT_DIR$/src/components/my-theatre.tsx" />
+        <option value="$PROJECT_DIR$/src/library/components/current-passage.tsx" />
+        <option value="$PROJECT_DIR$/src/library/components/Story.tsx" />
+        <option value="$PROJECT_DIR$/src/library/eval-scope.ts" />
+        <option value="$PROJECT_DIR$/webpack.config.ts" />
+        <option value="$PROJECT_DIR$/src/typings/dom.d.ts" />
+        <option value="$PROJECT_DIR$/tsconfig.webpack.json" />
+        <option value="$PROJECT_DIR$/webpack.prod.ts" />
+        <option value="$PROJECT_DIR$/src/services/dummy-service.ts" />
+        <option value="$PROJECT_DIR$/src/styles/index.scss" />
+        <option value="$PROJECT_DIR$/src/components/header/_header.scss" />
+        <option value="$PROJECT_DIR$/src/services/example-service.ts" />
+        <option value="$PROJECT_DIR$/src/components/header/header.tsx" />
+        <option value="$PROJECT_DIR$/src/components/start-page/start-page.tsx" />
+        <option value="$PROJECT_DIR$/src/components/sub-page/_sub-page.scss" />
+        <option value="$PROJECT_DIR$/src/components/no-match-page/_no-match-page.scss" />
+        <option value="$PROJECT_DIR$/src/components/no-match-page/no-match-page.tsx" />
+        <option value="$PROJECT_DIR$/yarn.lock" />
+        <option value="$PROJECT_DIR$/src/utils/deferred.ts" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/components/sub-page/sub-page.tsx" />
+        <option value="$PROJECT_DIR$/src/components/main-page/main-page.tsx" />
+        <option value="$PROJECT_DIR$/src/components/main-page/_main-page.scss" />
+        <option value="$PROJECT_DIR$/src/utils/reactUtils.ts" />
+        <option value="$PROJECT_DIR$/src/utils/decorators/bind.ts" />
+        <option value="$PROJECT_DIR$/src/utils/decorators/tracked.ts" />
+        <option value="$PROJECT_DIR$/src/index.scss" />
+        <option value="$PROJECT_DIR$/src/components/base-component.tsx" />
+        <option value="$PROJECT_DIR$/webpack.common.ts" />
+        <option value="$PROJECT_DIR$/.babelrc" />
+        <option value="$PROJECT_DIR$/src/index.tsx" />
+        <option value="$PROJECT_DIR$/tsconfig.json" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/webpack.dev.ts" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Control flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Error handlingJavaScript</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript validity issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
+          </State>
+          <State>
+            <id>RegExp</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>JSXNamespaceValidation</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="decimaker-visualizer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="decimaker-visualizer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="decimaker-visualizer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="decimaker-visualizer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="decimaker-visualizer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="decimaker-visualizer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="decimaker-visualizer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="decimaker-visualizer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="main-page" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="decimaker-visualizer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="decimaker-visualizer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="decimaker-visualizer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="decimaker-visualizer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="decimaker-visualizer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="decimaker-visualizer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="decorators" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="9.0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.prettier" value="true" />
+    <property name="node.js.path.for.package.prettier" value="project" />
+    <property name="node.js.selected.package.prettier" value="C:\Users\Me\PrivateRepos\cyoa2\node_modules\prettier" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.splitter.proportion" value="0.2407045" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Repos\PrivateRepos\decimaker-visualizer" />
+      <recent name="C:\Users\Me\PrivateRepos\react-boilerplate\src\components" />
+      <recent name="C:\Users\Me\PrivateRepos\react-boilerplate\src" />
+      <recent name="C:\Users\Me\PrivateRepos\react-boilerplate\src\services" />
+      <recent name="C:\Users\Me\PrivateRepos\cyoa2\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Repos\PrivateRepos\decimaker-visualizer\src" />
+      <recent name="D:\Repos\PrivateRepos\decimaker-visualizer\src\utils" />
+      <recent name="C:\Users\Me\PrivateRepos\react-boilerplate\src" />
+      <recent name="C:\Users\Me\PrivateRepos\cyoa2\src\services" />
+      <recent name="C:\Users\Me\PrivateRepos\cyoa-parser\src\story" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Node.js.webpack-dev-server">
+    <configuration name="ts-node" type="NodeJSConfigurationType" factoryName="Node.js" node-parameters="--inspect --require ts-node/register" path-to-js-file="$PROJECT_DIR$/src/parser/index.ts" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="webpack-dev-server" type="NodeJSConfigurationType" factoryName="Node.js" node-parameters="--inspect" path-to-js-file="node_modules/webpack-dev-server/bin/webpack-dev-server.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Node.js.ts-node" />
+      <item itemvalue="Node.js.webpack-dev-server" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="552d4edb-7e3b-46e6-8f63-9915a62ee699" name="Default" comment="" />
+      <created>1511007806309</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1511007806309</updated>
+      <workItem from="1511007807421" duration="38307000" />
+      <workItem from="1511632792064" duration="24856000" />
+      <workItem from="1511699406978" duration="1816000" />
+      <workItem from="1511757302835" duration="3961000" />
+      <workItem from="1512026940037" duration="6000" />
+      <workItem from="1512223127780" duration="96020000" />
+      <workItem from="1512850240035" duration="39816000" />
+      <workItem from="1513185447209" duration="51960000" />
+      <workItem from="1513714281113" duration="24792000" />
+      <workItem from="1513803208319" duration="52130000" />
+      <workItem from="1514731608711" duration="11000" />
+      <workItem from="1514731640093" duration="36000" />
+      <workItem from="1514732122317" duration="12687000" />
+      <workItem from="1515656906731" duration="599000" />
+      <workItem from="1515855300505" duration="12000" />
+      <workItem from="1516441680064" duration="18361000" />
+      <workItem from="1516469307387" duration="42644000" />
+      <workItem from="1517061967406" duration="17000" />
+      <workItem from="1517062035920" duration="8034000" />
+      <workItem from="1519245694826" duration="1917000" />
+      <workItem from="1519629218346" duration="47000" />
+      <workItem from="1519794206819" duration="1321000" />
+      <workItem from="1520195720222" duration="16886000" />
+      <workItem from="1520783959439" duration="19534000" />
+      <workItem from="1520969934088" duration="9019000" />
+      <workItem from="1521124456944" duration="52658000" />
+      <workItem from="1521659924500" duration="8893000" />
+      <workItem from="1521706646491" duration="890000" />
+      <workItem from="1521877379804" duration="112000" />
+      <workItem from="1529745123580" duration="94000" />
+      <workItem from="1529745745995" duration="1357000" />
+      <workItem from="1529835973378" duration="5550000" />
+      <workItem from="1530558618615" duration="178000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="534521000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13066386" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32881" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32982087" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.29123172" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32916668" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32848233" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="11" weight="0.32744282" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/parser/cyoa-loader.ts</url>
+          <line>4</line>
+          <option name="timeStamp" value="183" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <default-breakpoints>
+        <breakpoint type="dart-exception">
+          <properties />
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>this.currIdx &gt;= 450</expression-string>
+        <language-id>TypeScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>this.currIdx === 450</expression-string>
+        <language-id>TypeScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>this.cur</expression-string>
+        <language-id>TypeScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>text.substring(offset)</expression-string>
+        <language-id>TypeScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>this.LA(1)</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Object.values(ctx).filter(array =&gt; 0 &lt; array.length).map(array =&gt; array[0])</expression-string>
+        <language-id>TypeScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>this.CST_STACK[&quot;5&quot;].children.$expressionContentEntry.slice(0, 1000)</expression-string>
+        <language-id>TypeScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>ctx.jsExpression[&quot;0&quot;].image</expression-string>
+        <language-id>TypeScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Object.values(ctx)</expression-string>
+        <language-id>TypeScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Object.keys(ctx)</expression-string>
+        <language-id>TypeScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/rooms/start.tsx" />
+    <entry file="file://$PROJECT_DIR$/src/library/services/History.ts" />
+    <entry file="file://$PROJECT_DIR$/src/library/components/Link.tsx" />
+    <entry file="file://$PROJECT_DIR$/node_modules/typescript/lib/lib.es2015.proxy.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/library/components/current-room.tsx" />
+    <entry file="file://$PROJECT_DIR$/src/components/my-theatre.tsx" />
+    <entry file="file://$PROJECT_DIR$/src/components/combat-character-status.tsx" />
+    <entry file="file://$PROJECT_DIR$/src/library/components/Passage.tsx" />
+    <entry file="file://$PROJECT_DIR$/src/library/components/current-passage.tsx" />
+    <entry file="file://$PROJECT_DIR$/src/services/game.ts" />
+    <entry file="file://$PROJECT_DIR$/src/library/components/ExpressionComponent.tsx" />
+    <entry file="file://$PROJECT_DIR$/node_modules/typescript/lib/lib.es2015.collection.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="68" column="4" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/library/eval-scope.ts" />
+    <entry file="file://$PROJECT_DIR$/src/library/components/Story.tsx" />
+    <entry file="file://$PROJECT_DIR$/src/typings/dom.d.ts" />
+    <entry file="file://$PROJECT_DIR$/node_modules/@types/react/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="365" column="8" selection-start-line="365" selection-start-column="8" selection-end-line="365" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@types/react-router/index.d.ts" />
+    <entry file="file://$PROJECT_DIR$/src/components/sub-page/_sub-page.scss" />
+    <entry file="file://$PROJECT_DIR$/src/components/no-match-page/no-match-page.tsx" />
+    <entry file="file://$PROJECT_DIR$/src/components/no-match-page/_no-match-page.scss" />
+    <entry file="file://$PROJECT_DIR$/yarn.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/header/_header.scss" />
+    <entry file="file://$PROJECT_DIR$/src/components/header/header.tsx" />
+    <entry file="file://$PROJECT_DIR$/src/services/example-service.ts" />
+    <entry file="file://$PROJECT_DIR$/node_modules/typescript/lib/lib.es5.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="1361" column="18" selection-start-line="1361" selection-start-column="18" selection-end-line="1361" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/container.ts" />
+    <entry file="file://$PROJECT_DIR$/src/services/server.ts" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/sub-page/sub-page.tsx" />
+    <entry file="file://$PROJECT_DIR$/src/errors/httpError.ts" />
+    <entry file="file://$PROJECT_DIR$/src/components/start-page/start-page.tsx" />
+    <entry file="file://$PROJECT_DIR$/src/components/main-page/_main-page.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.prod.ts" />
+    <entry file="file://$PROJECT_DIR$/webpack.common.ts" />
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsconfig.webpack.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.babelrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/base-component.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="49" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/_dependencies.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="43" lean-forward="true" selection-start-column="43" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/decorators/bind.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/decorators/tracked.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/deferred.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/reactUtils.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/main-page/main-page.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.dev.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
