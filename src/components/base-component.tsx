@@ -1,5 +1,5 @@
-import {Subscription, Observable, Subject} from 'rxjs';
-import {safeSetState} from '../utils/reactUtils';
+import {Subject, Subscription, from, ObservableInput} from 'rxjs';
+import {safeSetState} from '../utils/react-utils';
 import {PureComponent} from 'react';
 
 export abstract class BaseComponent<TProps = Dictionary<any>, TState = Dictionary<any>> extends PureComponent<TProps, TState>
@@ -7,8 +7,10 @@ export abstract class BaseComponent<TProps = Dictionary<any>, TState = Dictionar
     public state: TState = {} as TState;
     public isMounted: boolean;
 
-    protected subscriptions: Map<string, Subscription> = new Map();
-    protected didUpdate: Subject<{ props: TProps, state: TState, prevProps: TProps, prevState: TState }> = new Subject;
+    public didChange: Subject<{ prevProps: TProps, prevState: TState, props: TProps, state: TState }> = new Subject;
+
+    protected subscriptions: Map<keyof TState, Subscription> = new Map();
+    public didUpdate: Subject<{ props: TProps, state: TState, prevProps: TProps, prevState: TState }> = new Subject;
     protected willUnmount: Subject<boolean> = new Subject;
 
     public constructor(props: TProps, context: any)
@@ -18,19 +20,34 @@ export abstract class BaseComponent<TProps = Dictionary<any>, TState = Dictionar
         Object.defineProperty(this, 'isMounted', { writable: true, value: false });
     }
 
-    protected addObservable<T>(key: string, obs: Observable<T>, defaultValue?: T): void
+    protected addObservable<TKey extends keyof TState>(key: TKey, obs: ObservableInput<TState[TKey]>, defaultValue?: TState[TKey]): void
+    {
+        this.removeObservable(key);
+
+        if (undefined !== defaultValue)
+            safeSetState(this, { [key]: defaultValue } as any);
+
+        this.subscriptions.set(key, from(obs).subscribe({
+            next: value => {
+                safeSetState<TProps, TState>(this as any, { [key]: value } as any);
+            },
+            error: error => {
+                console.error(error);
+                this.removeObservable(key);
+            },
+            complete: () => {
+                console.log(`'${key}' observable completed`);
+                this.removeObservable(key)
+            }
+        }));
+    }
+
+    protected removeObservable(key: keyof TState): void
     {
         const prevSubscription = this.subscriptions.get(key);
 
         if (prevSubscription)
             prevSubscription.unsubscribe();
-
-        if (undefined !== defaultValue)
-            safeSetState(this, { [key]: defaultValue } as any);
-
-        this.subscriptions.set(key, obs.subscribe(value => {
-            safeSetState<TProps, TState>(this as any, { [key]: value } as any);
-        }));
     }
 
     protected clearObservables(): void
@@ -51,6 +68,8 @@ export abstract class BaseComponent<TProps = Dictionary<any>, TState = Dictionar
     public componentDidUpdate(prevProps: Readonly<TProps>, prevState: Readonly<TState>, prevContext: any): void
     {
         this.didUpdate.next({ props: this.props, state: this.state, prevProps, prevState });
+
+        this.triggerDidChange(prevProps, prevState);
     }
 
     public componentWillUnmount(): void
@@ -64,10 +83,27 @@ export abstract class BaseComponent<TProps = Dictionary<any>, TState = Dictionar
 
         this.subscriptions.clear();
         this.willUnmount.next(true);
+
+        // Cleanup event handlers
+        this.didChange.complete();
+        this.didUpdate.complete();
+        this.willUnmount.complete();
     }
 
     public componentDidMount(): void
     {
         this.isMounted = true;
+
+        this.triggerDidChange();
+    }
+
+    protected triggerDidChange(prevProps?: TProps, prevState?: TState): void
+    {
+        this.didChange.next({
+            prevProps: prevProps || ({} as any),
+            prevState: prevState || ({} as any),
+            props: this.props,
+            state: this.state
+        });
     }
 }
